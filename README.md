@@ -1,2 +1,2 @@
 # python-class
-This directory contains Python object-oriented examples
+Contains examples used in Python and Test Automation class at Knowledge Innovations Academy
