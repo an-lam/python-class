@@ -1,0 +1,4 @@
+  File "C:/Users/lama2/PycharmProjects/GUI/Page-generated-sample1.py", line 20
+    import Page-generated-sample1_support
+               ^
+SyntaxError: invalid syntax
