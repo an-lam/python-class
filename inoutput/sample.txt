@@ -1,0 +1,5 @@
+Getting Python
+
+Next, install the Python interpreter on your computer. You need
+it before you can do any Python programming.
+Mac OSX distributions from 10.3.

@@ -1,0 +1,17 @@
+# write2file.py
+
+cities = ["Rome", "Paris", "London", "Barcelona", "Venice"]
+
+# "with" statement guarantees Python always close file on exit
+with open("cities.txt", 'w') as city_file:
+    for city in cities:
+        print(city, file=city_file)   # Where does it print?
+
+europe = []       # start with empty list
+with open("cities.txt", 'r') as city_file:
+    for city in city_file:
+        europe.append(city.strip('\n'))
+
+print(europe)
+for city in europe:
+    print(city)
