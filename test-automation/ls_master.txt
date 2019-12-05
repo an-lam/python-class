@@ -1,0 +1,11 @@
+Desktop
+Documents
+Downloads
+helloworld.py
+Music
+Pictures
+Public
+python_games
+Templates
+thuy1
+Videos

@@ -1,0 +1,6 @@
+mydevice:
+    ip: 192.168.1.101
+    username: pi
+    password: anlam2018
+    port: 22
+

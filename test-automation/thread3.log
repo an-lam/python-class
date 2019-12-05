@@ -1,0 +1,6 @@
+[DEBUG] (worker    ) +++Starting
+[DEBUG] (Thread-1  ) +++Starting
+[DEBUG] (my_service) ===Starting
+[DEBUG] (Thread-1  ) +++Exiting
+[DEBUG] (worker    ) +++Exiting
+[DEBUG] (my_service) ===Exiting

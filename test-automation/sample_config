@@ -1,0 +1,9 @@
+mydevice:
+    host: rasberry1.aulac.edu
+    user: sysadmin
+    passwd: my secret password
+
+log:
+    file: mylog_file
+    number_of_files: 3
+    file_size: 5k

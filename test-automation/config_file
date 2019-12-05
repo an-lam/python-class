@@ -1,0 +1,18 @@
+# This is comment
+mydevice1:
+    host: myraspberry1
+    user: pi
+    password: raspberry
+
+simpledevice: pi2
+
+mydevice2:
+    host: myraspberry2
+    user: pi
+    password: raspberry
+
+log:
+    file: mylog_file
+    number_of_files: 3
+    file_size: 5k
+    host: loghost

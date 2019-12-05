@@ -1,0 +1,7 @@
+address:
+    ip: 10.203.35.153
+    hostname: my_rasbery_pi
+
+login:
+    user: pi
+    passwd: raspberry

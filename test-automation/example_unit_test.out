@@ -1,0 +1,7 @@
+INFO:root:Calling Mytest:setup_class
+DEBUG:root:This goes to log file: 'test_get_file'
+INFO:root:Calling Mytest:setup_class
+DEBUG:root:This goes to log file: 'test_get_file'
+INFO:root:Calling Mytest:setup_class
+DEBUG:root:This goes to log file: 'test_get_file'
+INFO:root:This goes to log file: 'test_ls'

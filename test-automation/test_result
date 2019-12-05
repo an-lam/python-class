@@ -1,0 +1,17 @@
+F example_unit_test.py::T::test_connect
+ self = <example_unit_test.T testMethod=test_connect>
+ 
+     def test_connect(self):
+ >       s = SSHConnection(hostname='localhost', username='root', password='abc123')
+ E       NameError: name 'SSHConnection' is not defined
+ 
+ example_unit_test.py:9: NameError
+F test_sample.py::test_increment1
+ def test_increment1():
+         print("test_increment1: This test fails.")
+ >       assert increment(3) == 5
+ E       assert 4 == 5
+ E        +  where 4 = increment(3)
+ 
+ test_sample.py:7: AssertionError
+. test_sample.py::test_increment2
