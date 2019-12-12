@@ -1,2 +1,4 @@
 # python-class
-Contains examples used in Python Programming and Test Automation class at Knowledge Innovations Academy
+Contains examples used in the following classes:
+1. Python Programming (West Valley College)
+2. Test Automation class (Knowledge Innovations Academy)
