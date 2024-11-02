@@ -2,4 +2,4 @@ import random
 import os
 
 help(random.randint)
-#help(os)
+help(os)

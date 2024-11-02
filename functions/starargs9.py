@@ -3,7 +3,9 @@
 def aver_len(arg):
     total = 0
     wordlist = arg.split(' ')
+    print("in aver_len: ")
     for word in wordlist:
+        print(word)
         total += len(word)
 
     print(wordlist)
@@ -30,8 +32,8 @@ backward("this", "is", "forward")
 words = "abc edf abcsdf"
 aver_len(words)
 
-x = 5/2
-y = 5//2
+x = 8/3
+y = 8//3
 print(x)
 print(y)
 s = "This is string"

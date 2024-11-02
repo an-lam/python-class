@@ -44,10 +44,12 @@ def fibonacci(n):
             n_minus1 = result
     return result
 
-n = 5000
-#print("{0}! = {1} \n".format(n, factorial(n)))
-print("{0}! = {1} \n".format(n,iterative_factorial(n)))
+n = 5
+print("{0}! = {1} \n".format(n, factorial(n)))
+#print("{0}! = {1} \n".format(n, iterative_factorial(n)))
 
 print("Fibonacci table:")
-for i in range(7):
-    print(i, fib(i), "\t", fibonacci(i))
+print("i \t fib(i)  fibonacci")
+for i in range(8):
+    print(i, "\t", fib(i), "\t\t", fibonacci(i))
+

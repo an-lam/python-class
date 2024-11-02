@@ -19,13 +19,19 @@ def palindrome(s):
 
 def palindrome2(s):
     rev = ""
-    for i in s:
+    for i in s[len(s)//2:len(s)]:
         # Create a reverse string by append characters to the beginning
         rev = i + rev
-        if rev == s:
-            return True
+        print(rev)
+        #if rev == s:
+        #    return True
 
-    return False
+    if s[0:len(s)//2] == rev:
+        return True
+    else:
+        return False
+
+    #return False
 
 # Test code
 print(palindrome("Aba"))

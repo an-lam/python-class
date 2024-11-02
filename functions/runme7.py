@@ -6,6 +6,8 @@ def runtest():
 
 def runtest2():
     print("in runtest2()")
+    print("__name__:" + __name__)
+
 
 # Self-test code
 # Executed when run, but not executed when import
